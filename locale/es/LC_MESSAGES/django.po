@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-21 23:15-0300\n"
+"PO-Revision-Date: 2020-11-21 23:28-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: core/forms.py:6 core/forms.py:17 core/models.py:45
+msgid "Nome"
+msgstr "Nombre"
+
+#: core/forms.py:7 core/forms.py:18
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: core/forms.py:8 core/forms.py:19
+msgid "Assunto"
+msgstr "Asunto"
+
+#: core/forms.py:9 core/forms.py:20
+msgid "Mensagem"
+msgstr "Mensaje"
+
+#: core/models.py:7
+msgid "Criação"
+msgstr "Creación"
+
+#: core/models.py:8
+msgid "Atualização"
+msgstr "actualizar"
+
+#: core/models.py:9
+msgid "Ativo?"
+msgstr "Activo?"
+
+#: core/models.py:16
+msgid "Engrenagem"
+msgstr "Engranaje"
+
+#: core/models.py:17
+msgid "Gráfico"
+msgstr "Gráfico"
+
+#: core/models.py:18
+msgid "Usuários"
+msgstr "Usuarios"
+
+#: core/models.py:19
+msgid "Design"
+msgstr "Diseño"
+
+#: core/models.py:20
+msgid "Mobile"
+msgstr "Móvil"
+
+#: core/models.py:21
+msgid "Foguete"
+msgstr "Cohete"
+
+#: core/models.py:23 core/models.py:28
+msgid "Serviço"
+msgstr "Servicio"
+
+#: core/models.py:24
+msgid "Descrição"
+msgstr "descripción"
+
+#: core/models.py:25
+msgid "Icone"
+msgstr "Icono"
+
+#: core/models.py:29 core/templates/base.html:49
+msgid "Serviços"
+msgstr "servicios"
+
+#: core/models.py:38
+msgid "Cargo"
+msgstr "Publicacione"
+
+#: core/models.py:39
+msgid "Cargos"
+msgstr "Publicaciones"
+
+#: core/models.py:47
+msgid "Bio"
+msgstr "Bio"
+
+#: core/models.py:48
+msgid "Imagem"
+msgstr "Imagen"
+
+#: core/templates/404.html:11
+msgid "Página não Encontrada"
+msgstr "Página no encontrada"
+
+#: core/templates/404.html:12
+msgid "Infelizmente a página que você procura não está disponível"
+msgstr "Lamentablemente, la página que busca no está disponible."
+
+#: core/templates/404.html:14 core/templates/500.html:14
+msgid "Volte para a página principal"
+msgstr "Volver a la pagina principal"
+
+#: core/templates/500.html:11
+msgid "Erro de processamento"
+msgstr "Error de proceso"
+
+#: core/templates/500.html:12
+msgid "Infelizmente não foi possível processar a requisição."
+msgstr "Lamentablemente, no fue posible procesar la solicitud."
+
+#: core/templates/about.html:10
+msgid "Gerenciar estatísticas"
+msgstr "Gestionar estadísticas"
+
+#: core/templates/about.html:13
+msgid "Estatísticas detalhadas da sua empresa"
+msgstr "Estadísticas detalladas de su empresa"
+
+#: core/templates/about.html:19
+msgid "Consulte mais informação"
+msgstr "Ver más información"
+
+#: core/templates/base.html:10
+msgid "Fusion - Página com Bootstrap 4"
+msgstr "Fusion - Página con Bootstrap 4"
+
+#: core/templates/base.html:44
+msgid "Inicio"
+msgstr "comienzo"
+
+#: core/templates/base.html:54
+msgid "Equipe"
+msgstr "Equipo"
+
+#: core/templates/base.html:59
+msgid "Preço"
+msgstr "Precio"
+
+#: core/templates/base.html:64
+msgid "Testemunho"
+msgstr "Un testimonio"
+
+#: core/templates/base.html:69 core/templates/footer.html:42
+msgid "Contato"
+msgstr "Contacto"
+
+#: core/templates/call.html:8
+msgid "Obtenha 30 dias de teste gratuito"
+msgstr "Obtenga una prueba gratuita de 30 días"
+
+#: core/templates/call.html:13
+msgid "Registrar agora"
+msgstr "Regístrate ahora"
+
+#: core/templates/contact.html:6
+msgid "Contate-nos"
+msgstr "Contáctenos"
+
+#: core/templates/contact.html:39
+msgid "Enviar"
+msgstr "Enviar"
+
+#: core/templates/features.html:6
+msgid "Recursos incríveis"
+msgstr "Características increíbles"
+
+#: core/templates/features.html:17
+msgid "Baseado no Bootstrap 4 "
+msgstr "Basado en Bootstrap 4"
+
+#: core/templates/features.html:26
+msgid "Totalmente responsivo"
+msgstr "Totalmente receptivo"
+
+#: core/templates/features.html:35
+msgid "HTML5, CSS3 & SASS"
+msgstr "HTML5, CSS3 & SASS"
+
+#: core/templates/features.html:53
+msgid "Design moderno"
+msgstr "Diseño moderno"
+
+#: core/templates/features.html:62
+msgid "Modelo multifuncional"
+msgstr ""
+"Modelo multifuncional\n"
+" "
+
+#: core/templates/features.html:71
+msgid "Formulário de contato de trabalho"
+msgstr "Formulario de contacto laboral"
+
+#: core/templates/footer.html:22
+msgid "Produtos"
+msgstr "Productos"
+
+#: core/templates/footer.html:24
+msgid "Rastreamento"
+msgstr "Rastreo"
+
+#: core/templates/footer.html:25
+msgid "Inscrição"
+msgstr "suscripción"
+
+#: core/templates/footer.html:26
+msgid "Planejamento de recursos"
+msgstr "Planeación de recursos"
+
+#: core/templates/footer.html:27
+msgid "Empreendimento"
+msgstr "Propiedad"
+
+#: core/templates/footer.html:28
+msgid "Gestão de funcionários"
+msgstr "Gestión de empleados"
+
+#: core/templates/footer.html:32
+msgid "Recursos"
+msgstr "Recursos"
+
+#: core/templates/footer.html:34
+msgid "Opções de pagamento"
+msgstr "Opciones de pago"
+
+#: core/templates/footer.html:35
+msgid "Tabela de taxas"
+msgstr "Tabla de tarifas"
+
+#: core/templates/footer.html:36
+msgid "Começando"
+msgstr "Comenzando"
+
+#: core/templates/footer.html:37
+msgid "Verificação de identidade"
+msgstr "Verificación de identidad"
+
+#: core/templates/footer.html:38
+msgid "Cartão de verificacão"
+msgstr "Tarjeta de verificación"
+
+#: core/templates/footer.html:63
+msgid "Todos os direitos reservados"
+msgstr "Todos los derechos reservados"
+
+#: core/templates/hero.html:8
+msgid "App, Negócios & SaaS"
+msgstr "Aplicación, empresa y SaaS"
+
+#: core/templates/hero.html:8
+msgid "Modelo de página de destino"
+msgstr "Plantilla de página de destino"
+
+#: core/templates/hero.html:11
+msgid "Baixe agora"
+msgstr "Descargar ahora"
+
+#: core/templates/hero.html:12
+msgid "Saber mais"
+msgstr "Saber mas"
+
+#: core/templates/pricing.html:6
+msgid "Preços"
+msgstr "Precios"
+
+#: core/templates/pricing.html:19
+msgid "Pro"
+msgstr "Pro"
+
+#: core/templates/pricing.html:22
+msgid "1 usuarios"
+msgstr "1 usuario"
+
+#: core/templates/pricing.html:23
+msgid "10 GB armazenamento"
+msgstr "10 GB de almacenamiento"
+
+#: core/templates/pricing.html:24 core/templates/pricing.html:44
+msgid "Suporte por e-mail"
+msgstr "Soporte de correo electrónico"
+
+#: core/templates/pricing.html:25 core/templates/pricing.html:45
+#: core/templates/pricing.html:65
+msgid "Atualizações vitalícias"
+msgstr "Actualizaciones de por vida"
+
+#: core/templates/pricing.html:27 core/templates/pricing.html:47
+#: core/templates/pricing.html:67
+msgid "Compre agora"
+msgstr "Compre ahora"
+
+#: core/templates/pricing.html:39
+msgid "Mais"
+msgstr "Más"
+
+#: core/templates/pricing.html:42
+msgid "10 usuarios"
+msgstr "10 usuarios"
+
+#: core/templates/pricing.html:43
+msgid "30 GB armazenamento"
+msgstr "30 GB de almacenamiento"
+
+#: core/templates/pricing.html:59
+msgid "Premium"
+msgstr "Prima"
+
+#: core/templates/pricing.html:62
+msgid "Usuários ilimitados"
+msgstr "Usuarios ilimitados"
+
+#: core/templates/pricing.html:63
+msgid "Armazenamento ilimitado"
+msgstr "Almacenamiento ilimitado"
+
+#: core/templates/pricing.html:64
+msgid "24/7 Suporte"
+msgstr "Soporte 24/7"
+
+#: core/templates/services.html:6
+msgid "Nossos serviços"
+msgstr "Nuestros servicios"
+
+#: core/templates/team.html:6
+msgid "Conheça nossa equipe"
+msgstr "Conozca a nuestro equipo"
+
+#: core/views.py:29
+msgid "E-mail enviado com sucesso"
+msgstr "Email enviado con éxito"
+
+#: core/views.py:33
+msgid "Erro ao enviar"
+msgstr "Error al enviar"
