@@ -75,16 +75,25 @@ WSGI_APPLICATION = 'mysitehomeexpert.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+import dj_database_url
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mysitehomeexpert',
-        'USER': 'fabiano',
-        'PASSWORD': 'Meubancodedadospostgresql*1',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+    )
 }
+
+# Configuração original do PostgreSQL:
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mysitehomeexpert',
+#         'USER': 'fabiano',
+#         'PASSWORD': 'Meubancodedadospostgresql*1',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
@@ -115,7 +124,8 @@ TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
-USE_L10N = True
+# USE_L10N foi removido no Django 5.0+
+# USE_L10N = True
 
 USE_TZ = True
 
@@ -140,3 +150,5 @@ EMAIL_PORT = 587
 EMAIL_USER_TSL = True
 EMAIL_HOST_PASSWORD = 'senha'
 """
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

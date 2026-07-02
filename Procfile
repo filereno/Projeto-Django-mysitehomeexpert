@@ -1,1 +1,1 @@
-web: gunicorn mysitehomeadvanced.wsgi --log-file -
+web: gunicorn mysitehomeexpert.wsgi --log-file -
